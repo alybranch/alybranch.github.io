@@ -8,7 +8,7 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #81573b !default;
+$brand-primary: #F2EDE3 !default;
 
 $brand-white: #fff;
 $brand-black: #000;
@@ -20,7 +20,7 @@ $brand-selection-color: #f9f6f0;
 $brand-overlay-color: #4c4a8a;
 $brand-bg-color: $brand-white;
 
-$brand-bg-dark: #bb9472;
+$brand-bg-dark: #F2EDE3;
 
 $input-border-focus:  $brand-primary !default;
 $form-group-margin-bottom:       30px !default;
@@ -204,8 +204,11 @@ h2, p {
 		h1, h2, h3 {
 			margin: 0;
 			padding: 0;
-			color: rgba(255,255,255,1);
+			color: #333;
 			text-align: left;
+		}
+		a {
+			color: #333;
 		}
 		p, a {
 			text-align: left;
@@ -278,7 +281,7 @@ h2, p {
 		}
 		p {
 			margin-bottom: 30px;
-			color: $brand-white;
+			color: #333;
 		}
 		.profile-thumb{
 			background-size: cover !important;
@@ -322,7 +325,7 @@ h2, p {
 }
 
 .fh5co-bg-dark{
-	background: $brand-bg-dark;
+	background: #F2EDE3;
 	.fh5co-heading{
 		h2{
 			color: $brand-white !important;
@@ -333,7 +336,7 @@ h2, p {
 
 #fh5co-about {
 	h1, li .first-block {
-		color: #544233;
+		color: #333;
 	}
 	a {
 		color: rgba(0,0,0,0.5);
@@ -519,8 +522,8 @@ h2, p {
 // WORK
 
 #fh5co-work {
-	h1 {
-		color: $brand-white;
+	h1, p {
+		color: #333;
 	}
 }
 
@@ -541,22 +544,23 @@ h2, p {
 		margin-bottom: 20px;
 	}
 	h3 {
-		color: $brand-white;
+		color: #333;
 		margin-bottom: 10px;
 	}
 	p {
 		margin-bottom: 20px;
-		color: $brand-white;
+		color: #333;
 	}
 	.projects div {
 		margin-bottom: 50px;
 	}
 	a {
-		border: 2px solid white;
+		border: 2px solid #333;
 		padding: 10px 20px;
+		color: #333;
 	}
 	a:hover {
-		color: #fff;
+		color: #333;
 		opacity: .6;
 	}
 }
@@ -564,7 +568,7 @@ h2, p {
 
 #fh5co-skills {
 	h1, h3 {
-		color: #544233;
+		color: #333;
 	}
 	.skills {
 		display: grid;
@@ -578,10 +582,10 @@ h2, p {
 	a {
 		border: 2px solid #544233;
 		padding: 10px 20px;
-		color: #544233;
+		color: #333;
 	}
 	a:hover {
-		color: #544233;
+		color: #333;
 		opacity: .6;
 	}
 	.resume-link {
@@ -601,11 +605,11 @@ h2, p {
 	.fh5co-heading {
 		margin-bottom: 0;
 		h1 {
-			color: $brand-white;
+			color: #333;
 			margin-bottom: 20px !important;
 		}
 		p{
-			color: $brand-white;
+			color: #333;
 			margin-bottom: 40px;
 		}
 	}
@@ -623,11 +627,12 @@ h2, p {
 	}
 
 	a {
-		border: 2px solid white;
+		border: 2px solid #333;
 		padding: 10px 20px;
+		color: #333;
 	}
 	a:hover {
-		color: #fff;
+		color: #333;
 		opacity: .6;
 	}
 }
