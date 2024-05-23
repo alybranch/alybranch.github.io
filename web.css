@@ -443,12 +443,6 @@ p, li {
     transform: scaleX(1);
   }
 
-  body {
-      overflow-x: hidden;
-  }
-  .section-two .about-me{
-      padding: 0 30px;
-  }
   .section-three .section-content {
       display: block;
   }
