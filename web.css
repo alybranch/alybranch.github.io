@@ -416,15 +416,15 @@ p, li {
     margin: 0 2vw;
   }
   .section-three .work-images div {
-    max-width: 400px;
+    max-width: 300px;
     margin: auto;
   }
   .section-three .work-images .thumbnail img {
-    max-width: 400px;
+    max-width: 300px;
     margin: auto;
   }
   .section-three .work-images .description img {
-    max-width: 400px;
+    max-width: 300px;
     margin: auto;
   }
   .section-five .section-content {
@@ -440,5 +440,25 @@ p, li {
   }
   .text-link::before {
     transform: scaleX(1);
+  }
+
+  body {
+      overflow-x: hidden;
+  }
+  .section-two .about-me{
+      padding: 0 30px;
+  }
+  .section-three .section-content {
+      display: block;
+  }
+  .work-graphic img {
+      max-width: 300px!important;
+      margin: auto;
+  }
+  .section-four .top-section {
+      display: block;
+  }
+  .section-four .top-section img {
+      width: 400px!important;
   }
 }/*# sourceMappingURL=web.css.map */
