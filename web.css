@@ -409,6 +409,20 @@ p, li {
   }
 }
 @media only screen and (max-width: 770px) {
+
+  h1 {
+        font-size: 85px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 25px;
+    }
+    #nav a {
+        font-size: 25px;
+    }
+  
   .section-content {
     margin: 0 2vw;
   }
