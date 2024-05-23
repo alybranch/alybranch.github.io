@@ -408,6 +408,12 @@ p, li {
     top: 50px;
   }
 }
+
+p {
+  color: red;
+  font-size: 25px;
+}
+
 @media only screen and (max-width: 770px) {
 
   h1 {
@@ -418,6 +424,7 @@ p, li {
     }
     p {
         font-size: 25px;
+      color: blue;
     }
     #nav a {
         font-size: 25px;
