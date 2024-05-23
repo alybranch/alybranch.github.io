@@ -10,7 +10,6 @@ body {
   margin: 0 5vw;
   max-width: 1200px;
   padding: 50px;
-  overflow-x: hidden;
 }
 
 header {
@@ -415,6 +414,7 @@ p, li {
   
   .section-content {
     margin: 0 2vw;
+    overflow-x: hidden;
   }
   .section-three .work-images div {
     max-width: 300px;
