@@ -424,7 +424,7 @@ p {
     }
     p {
         font-size: 25px;
-      color: blue;
+      color: blue!important;
     }
     #nav a {
         font-size: 25px;
